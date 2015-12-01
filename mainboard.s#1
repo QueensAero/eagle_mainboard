@@ -625,6 +625,25 @@
 <rectangle x1="-47.244" y1="-18.034" x2="-46.736" y2="-17.526" layer="21"/>
 <wire x1="18.288" y1="6.35" x2="22.352" y2="6.35" width="0.127" layer="21"/>
 </package>
+<package name="MS5607">
+<pad name="SCL" x="0" y="0" drill="1.0668"/>
+<pad name="SDA" x="0" y="2.54" drill="1.0668"/>
+<pad name="SDO" x="0" y="5.08" drill="1.0668"/>
+<pad name="CS" x="0" y="7.62" drill="1.0668"/>
+<pad name="PS" x="0" y="-2.54" drill="1.0668"/>
+<pad name="VIN" x="0" y="-5.08" drill="1.0668"/>
+<pad name="GND" x="0" y="-7.62" drill="1.0668"/>
+<wire x1="1.27" y1="10.16" x2="-19.05" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="10.16" x2="-19.05" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-10.16" x2="1.27" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-10.16" x2="1.27" y2="10.16" width="0.127" layer="21"/>
+<text x="-17.78" y="7.62" size="1.27" layer="21">MS5607</text>
+<wire x1="-10.16" y1="2.54" x2="-7.62" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
+<circle x="-16.51" y="0" radius="1.79605" width="0.127" layer="21"/>
+</package>
 <package name="PIN_2X2">
 <pad name="1.1" x="-1.27" y="1.27" drill="1.016"/>
 <pad name="1.2" x="-1.27" y="-1.27" drill="1.016"/>
@@ -829,6 +848,21 @@
 <text x="-30.988" y="44.704" size="1.27" layer="94" rot="R270">SCL1</text>
 <text x="-15.24" y="5.08" size="2.54" layer="94" font="vector" ratio="10">DUE Shield</text>
 </symbol>
+<symbol name="MS5607">
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<pin name="VIN" x="-17.78" y="2.54" length="middle"/>
+<pin name="GND" x="-17.78" y="0" length="middle"/>
+<pin name="PS" x="-17.78" y="-2.54" length="middle"/>
+<pin name="CS" x="-17.78" y="-5.08" length="middle"/>
+<pin name="SDO" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SDA" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SCL" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<text x="0" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-12.7" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 <symbol name="PIN_2X2">
 <pin name="1.1" x="-5.08" y="0" visible="pad" length="short"/>
 <pin name="1.2" x="-5.08" y="-2.54" visible="pad" length="short"/>
@@ -950,6 +984,27 @@
 <connect gate="G$1" pin="TX1" pad="TX1"/>
 <connect gate="G$1" pin="TX2" pad="TX2"/>
 <connect gate="G$1" pin="TX3" pad="TX3"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MS5607">
+<gates>
+<gate name="G$1" symbol="MS5607" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS5607">
+<connects>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PS" pad="PS"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="SDO" pad="SDO"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
@@ -5754,21 +5809,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <text x="-13.716" y="-8.128" size="1.27" layer="21">VIN</text>
 <text x="-13.716" y="-10.668" size="1.27" layer="21">PPS</text>
 </package>
-<package name="ALTIMETER_V4">
-<description>&lt;h3&gt;Eagle Tree Altimeter V4&lt;/h3&gt;</description>
-<pad name="P$1" x="0" y="0" drill="0.8"/>
-<pad name="SCL" x="0" y="2.54" drill="0.8"/>
-<pad name="SDA" x="0" y="5.08" drill="0.8"/>
-<pad name="VIN" x="0" y="-2.54" drill="0.8"/>
-<pad name="GND" x="0" y="-5.08" drill="0.8"/>
-<wire x1="-1.27" y1="6.35" x2="1.27" y2="6.35" width="0.127" layer="21"/>
-<wire x1="1.27" y1="6.35" x2="1.27" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-6.35" x2="-1.27" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-6.35" x2="-1.27" y2="6.35" width="0.127" layer="21"/>
-<text x="1.778" y="-5.588" size="1.27" layer="21">GND</text>
-<text x="1.778" y="-3.048" size="1.27" layer="21">VIN</text>
-<text x="-3.048" y="4.572" size="1.27" layer="21" rot="R270">ALTIMETER</text>
-</package>
 </packages>
 <symbols>
 <symbol name="MPU6050">
@@ -5839,18 +5879,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pin name="PPS" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <text x="-12.7" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="7.62" size="1.778" layer="96">GPS</text>
-</symbol>
-<symbol name="ALTIMETER_V4">
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<pin name="VIN" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="SDA" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="SCL" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="94">ALTIMETER</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5940,25 +5968,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ALTIMETER_V4">
-<description>&lt;h3&gt;Eagle Tree Altimeter V4&lt;/h3&gt;</description>
-<gates>
-<gate name="G$1" symbol="ALTIMETER_V4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ALTIMETER_V4">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -5976,7 +5985,10 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="MPU" library="aero_sensors" deviceset="MPU6050" device=""/>
+<part name="ALTIMETER" library="DUElib130425" deviceset="MS5607" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0204/7" value="120"/>
@@ -6003,7 +6015,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <part name="U$3" library="DUElib130425" deviceset="PWR-BATT" device=""/>
 <part name="XB1" library="maxstream" deviceset="XBEE" device="-PRO" value="XBEE-PRO"/>
 <part name="G1" library="aero_sensors" deviceset="GPS_ADAFRUIT" device=""/>
-<part name="V4" library="aero_sensors" deviceset="ALTIMETER_V4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6015,7 +6026,10 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <instance part="GND2" gate="1" x="22.86" y="20.32" rot="R270"/>
 <instance part="P+1" gate="1" x="22.86" y="33.02"/>
 <instance part="MPU" gate="G$1" x="-50.8" y="78.74"/>
+<instance part="ALTIMETER" gate="G$1" x="-50.8" y="101.6"/>
 <instance part="GND3" gate="1" x="-86.36" y="81.28" rot="R270"/>
+<instance part="GND6" gate="1" x="-78.74" y="101.6" rot="R270"/>
+<instance part="P+4" gate="1" x="-73.66" y="111.76"/>
 <instance part="P+5" gate="1" x="182.88" y="50.8" rot="R270"/>
 <instance part="GND7" gate="1" x="154.94" y="50.8" rot="R270"/>
 <instance part="R2" gate="G$1" x="205.74" y="86.36" rot="R90"/>
@@ -6043,7 +6057,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <instance part="U$3" gate="G$1" x="134.62" y="-38.1"/>
 <instance part="XB1" gate="G$1" x="342.9" y="71.12"/>
 <instance part="G1" gate="G$1" x="-66.04" y="30.48"/>
-<instance part="V4" gate="G$1" x="-22.86" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -6061,6 +6074,12 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <wire x1="27.94" y1="30.48" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="5V"/>
 <wire x1="27.94" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+4" gate="1" pin="+5V"/>
+<wire x1="-73.66" y1="109.22" x2="-73.66" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="ALTIMETER" gate="G$1" pin="VIN"/>
+<wire x1="-73.66" y1="104.14" x2="-68.58" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
@@ -6084,11 +6103,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <wire x1="175.26" y1="48.26" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
 <junction x="175.26" y="50.8"/>
 </segment>
-<segment>
-<pinref part="V4" gate="G$1" pin="VIN"/>
-<wire x1="-7.62" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
-<label x="-2.54" y="78.74" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -6102,6 +6116,11 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="MPU" gate="G$1" pin="GND"/>
 <wire x1="-83.82" y1="81.28" x2="-68.58" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="ALTIMETER" gate="G$1" pin="GND"/>
+<wire x1="-76.2" y1="101.6" x2="-68.58" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -6184,11 +6203,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <pinref part="G1" gate="G$1" pin="GND"/>
 <wire x1="-48.26" y1="30.48" x2="-40.64" y2="30.48" width="0.1524" layer="91"/>
 <label x="-40.64" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="V4" gate="G$1" pin="GND"/>
-<wire x1="-7.62" y1="71.12" x2="-2.54" y2="71.12" width="0.1524" layer="91"/>
-<label x="-2.54" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUT_LA" class="0">
@@ -6362,12 +6376,22 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 </net>
 <net name="PS" class="0">
 <segment>
+<pinref part="ALTIMETER" gate="G$1" pin="PS"/>
+<wire x1="-68.58" y1="99.06" x2="-71.12" y2="99.06" width="0.1524" layer="91"/>
+<label x="-76.2" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="U$1" gate="G$1" pin="48"/>
 <wire x1="119.38" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 <label x="124.46" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS" class="0">
+<segment>
+<pinref part="ALTIMETER" gate="G$1" pin="CS"/>
+<wire x1="-68.58" y1="96.52" x2="-71.12" y2="96.52" width="0.1524" layer="91"/>
+<label x="-76.2" y="96.52" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="46"/>
 <wire x1="119.38" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
@@ -6583,6 +6607,11 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 </net>
 <net name="SDA" class="0">
 <segment>
+<pinref part="ALTIMETER" gate="G$1" pin="SDA"/>
+<wire x1="-33.02" y1="101.6" x2="-27.94" y2="101.6" width="0.1524" layer="91"/>
+<label x="-27.94" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="U$1" gate="G$1" pin="SDA"/>
 <wire x1="48.26" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <label x="38.1" y="78.74" size="1.778" layer="95"/>
@@ -6592,13 +6621,13 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <wire x1="-68.58" y1="76.2" x2="-78.74" y2="76.2" width="0.1524" layer="91"/>
 <label x="-83.82" y="76.2" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="V4" gate="G$1" pin="SDA"/>
-<wire x1="-7.62" y1="76.2" x2="-2.54" y2="76.2" width="0.1524" layer="91"/>
-<label x="-2.54" y="76.2" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SCL" class="0">
+<segment>
+<pinref part="ALTIMETER" gate="G$1" pin="SCL"/>
+<wire x1="-33.02" y1="99.06" x2="-27.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="-27.94" y="99.06" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SCL"/>
 <wire x1="48.26" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
@@ -6608,11 +6637,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <pinref part="MPU" gate="G$1" pin="SCL"/>
 <wire x1="-68.58" y1="78.74" x2="-78.74" y2="78.74" width="0.1524" layer="91"/>
 <label x="-83.82" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="V4" gate="G$1" pin="SCL"/>
-<wire x1="-7.62" y1="73.66" x2="-2.54" y2="73.66" width="0.1524" layer="91"/>
-<label x="-2.54" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_AILERON_A" class="0">
