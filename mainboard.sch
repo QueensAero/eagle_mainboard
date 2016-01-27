@@ -1086,75 +1086,6 @@ MA = male&lt;p&gt;
 W = angled&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="MA06-2">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-6.985" y1="2.54" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="2.54" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="2.54" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="2.54" x2="7.62" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="1.905" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-1.905" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-2.54" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-1.905" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-2.54" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="-1.27" drill="1.0668" shape="octagon"/>
-<pad name="3" x="-3.81" y="-1.27" drill="1.0668" shape="octagon"/>
-<pad name="5" x="-1.27" y="-1.27" drill="1.0668" shape="octagon"/>
-<pad name="7" x="1.27" y="-1.27" drill="1.0668" shape="octagon"/>
-<pad name="9" x="3.81" y="-1.27" drill="1.0668" shape="octagon"/>
-<pad name="11" x="6.35" y="-1.27" drill="1.0668" shape="octagon"/>
-<pad name="2" x="-6.35" y="1.27" drill="1.0668" shape="octagon"/>
-<pad name="4" x="-3.81" y="1.27" drill="1.0668" shape="octagon"/>
-<pad name="6" x="-1.27" y="1.27" drill="1.0668" shape="octagon"/>
-<pad name="8" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="10" x="3.81" y="1.27" drill="1.0668" shape="octagon"/>
-<pad name="12" x="6.35" y="1.27" drill="1.0668" shape="octagon"/>
-<text x="-6.858" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
-<text x="-7.62" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="5.08" y="2.921" size="1.27" layer="21" ratio="10">12</text>
-<text x="-2.54" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
-<rectangle x1="-6.604" y1="-1.524" x2="-6.096" y2="-1.016" layer="51"/>
-<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
-<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
-<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
-<rectangle x1="6.096" y1="-1.524" x2="6.604" y2="-1.016" layer="51"/>
-<rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
-<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
-<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
-<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
-<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
-</package>
 <package name="MA04-1">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
@@ -1198,38 +1129,6 @@ W = angled&lt;p&gt;
 </package>
 </packages>
 <symbols>
-<symbol name="MA06-2">
-<wire x1="3.81" y1="-10.16" x2="-3.81" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-1.27" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="-3.81" y1="7.62" x2="-3.81" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
-<text x="-3.81" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-3.81" y="8.382" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-7.62" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="4" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="6" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="7" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="9" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="11" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="8" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="10" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="12" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="MA04-1">
 <wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
@@ -1248,38 +1147,6 @@ W = angled&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MA06-2" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="MA06-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MA06-2">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="10" pad="10"/>
-<connect gate="1" pin="11" pad="11"/>
-<connect gate="1" pin="12" pad="12"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="1" pin="3" pad="3"/>
-<connect gate="1" pin="4" pad="4"/>
-<connect gate="1" pin="5" pad="5"/>
-<connect gate="1" pin="6" pad="6"/>
-<connect gate="1" pin="7" pad="7"/>
-<connect gate="1" pin="8" pad="8"/>
-<connect gate="1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MA04-1" prefix="SV" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -5998,7 +5865,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <part name="X1" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="SERVO-CON2" library="con-lstb" deviceset="MA06-2" device=""/>
 <part name="U$2" library="DUElib130425" deviceset="PIN_2X2" device=""/>
 <part name="U$3" library="DUElib130425" deviceset="PWR-BATT" device=""/>
 <part name="XB1" library="maxstream" deviceset="XBEE" device="-PRO" value="XBEE-PRO"/>
@@ -6038,7 +5904,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <instance part="X1" gate="-2" x="144.78" y="-22.86"/>
 <instance part="SUPPLY4" gate="G$1" x="139.7" y="-20.32" rot="R90"/>
 <instance part="GND13" gate="1" x="139.7" y="-25.4"/>
-<instance part="SERVO-CON2" gate="1" x="266.7" y="30.48"/>
 <instance part="U$2" gate="G$1" x="320.04" y="81.28" rot="MR0"/>
 <instance part="U$3" gate="G$1" x="134.62" y="-38.1"/>
 <instance part="XB1" gate="G$1" x="342.9" y="71.12"/>
@@ -6191,24 +6056,20 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <label x="-2.54" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OUT_LA" class="0">
-<segment>
-<wire x1="274.32" y1="22.86" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="25.4" x2="279.4" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="25.4" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="22.86" x2="284.48" y2="22.86" width="0.1524" layer="91"/>
-<label x="287.02" y="22.86" size="1.778" layer="95" rot="MR180"/>
-<pinref part="SERVO-CON2" gate="1" pin="1"/>
-<pinref part="SERVO-CON2" gate="1" pin="3"/>
-</segment>
+<net name="LEFT_AILERON" class="0">
 <segment>
 <wire x1="195.58" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
 <label x="200.66" y="38.1" size="1.778" layer="95"/>
 <pinref part="OUT" gate="G$1" pin="3.1"/>
 <junction x="195.58" y="38.1"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="6"/>
+<wire x1="91.44" y1="104.14" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
+<label x="91.44" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
-<net name="OUT_RA" class="0">
+<net name="RIGHT_AILERON" class="0">
 <segment>
 <wire x1="195.58" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
 <label x="200.66" y="35.56" size="1.778" layer="95"/>
@@ -6216,56 +6077,16 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <junction x="195.58" y="35.56"/>
 </segment>
 <segment>
-<pinref part="SERVO-CON2" gate="1" pin="11"/>
-<wire x1="274.32" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="35.56" x2="279.4" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SERVO-CON2" gate="1" pin="9"/>
-<wire x1="279.4" y1="33.02" x2="274.32" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="33.02" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
-<junction x="279.4" y="33.02"/>
-<label x="284.48" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="5"/>
+<wire x1="88.9" y1="104.14" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
+<label x="88.9" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="OUT_ELEVATOR" class="0">
-<segment>
-<wire x1="195.58" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
-<label x="200.66" y="33.02" size="1.778" layer="95"/>
-<pinref part="OUT" gate="G$1" pin="3.3"/>
-<junction x="195.58" y="33.02"/>
-</segment>
-<segment>
-<pinref part="SERVO-CON2" gate="1" pin="7"/>
-<wire x1="274.32" y1="30.48" x2="279.4" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="30.48" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SERVO-CON2" gate="1" pin="5"/>
-<wire x1="279.4" y1="27.94" x2="274.32" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="27.94" x2="284.48" y2="27.94" width="0.1524" layer="91"/>
-<junction x="279.4" y="27.94"/>
-<label x="284.48" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="L_AILERON_R" class="0">
-<segment>
-<pinref part="REC" gate="G$1" pin="3.5"/>
-<wire x1="195.58" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
-<label x="203.2" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SERVO-CON2" gate="1" pin="2"/>
-<wire x1="259.08" y1="22.86" x2="256.54" y2="22.86" width="0.1524" layer="91"/>
-<label x="256.54" y="22.86" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="R_AILERON_R" class="0">
+<net name="ROLL_R" class="0">
 <segment>
 <label x="203.2" y="58.42" size="1.778" layer="95"/>
 <wire x1="195.58" y1="58.42" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="REC" gate="G$1" pin="3.2"/>
-</segment>
-<segment>
-<pinref part="SERVO-CON2" gate="1" pin="10"/>
-<wire x1="259.08" y1="33.02" x2="256.54" y2="33.02" width="0.1524" layer="91"/>
-<label x="256.54" y="33.02" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="9"/>
@@ -6273,19 +6094,19 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <label x="99.06" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="ELEVATOR_A" class="0">
+<net name="RIGHT_TAIL" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="4"/>
 <wire x1="86.36" y1="104.14" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 <label x="86.36" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="SERVO-CON2" gate="1" pin="8"/>
-<wire x1="259.08" y1="30.48" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
-<label x="256.54" y="30.48" size="1.778" layer="95" rot="R180"/>
+<pinref part="OUT" gate="G$1" pin="3.4"/>
+<wire x1="195.58" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="200.66" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ELEVATOR_R" class="0">
+<net name="PITCH_R" class="0">
 <segment>
 <label x="203.2" y="55.88" size="1.778" layer="95"/>
 <wire x1="195.58" y1="55.88" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
@@ -6296,49 +6117,17 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <wire x1="96.52" y1="104.14" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
 <label x="96.52" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="SERVO-CON2" gate="1" pin="6"/>
-<wire x1="259.08" y1="27.94" x2="256.54" y2="27.94" width="0.1524" layer="91"/>
-<label x="256.54" y="27.94" size="1.778" layer="95" rot="R180"/>
-</segment>
 </net>
-<net name="RUDDER" class="0">
+<net name="YAW_R" class="0">
 <segment>
 <label x="203.2" y="53.34" size="1.778" layer="95"/>
 <wire x1="195.58" y1="53.34" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="REC" gate="G$1" pin="3.4"/>
 </segment>
 <segment>
-<wire x1="195.58" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
-<label x="200.66" y="30.48" size="1.778" layer="95"/>
-<pinref part="OUT" gate="G$1" pin="3.4"/>
-<junction x="195.58" y="30.48"/>
-</segment>
-</net>
-<net name="PAN" class="0">
-<segment>
-<wire x1="195.58" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
-<label x="200.66" y="25.4" size="1.778" layer="95"/>
-<pinref part="OUT" gate="G$1" pin="3.6"/>
-<junction x="195.58" y="25.4"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="83.82" y1="104.14" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
-<label x="83.82" y="109.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="TILT" class="0">
-<segment>
-<wire x1="195.58" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
-<label x="200.66" y="22.86" size="1.778" layer="95"/>
-<pinref part="OUT" gate="G$1" pin="3.7"/>
-<junction x="195.58" y="22.86"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="104.14" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
-<label x="81.28" y="109.22" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="12"/>
+<wire x1="106.68" y1="104.14" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
+<label x="106.68" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -6360,37 +6149,23 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <label x="124.46" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PS" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="48"/>
-<wire x1="119.38" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
-<label x="124.46" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CS" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="46"/>
-<wire x1="119.38" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
-<label x="124.46" y="38.1" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="THROTTLE" class="0">
-<segment>
-<wire x1="195.58" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
-<label x="200.66" y="27.94" size="1.778" layer="95"/>
-<pinref part="OUT" gate="G$1" pin="3.5"/>
-<junction x="195.58" y="27.94"/>
-</segment>
 <segment>
 <pinref part="REC" gate="G$1" pin="3.1"/>
 <wire x1="195.58" y1="60.96" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
 <label x="203.2" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT" gate="G$1" pin="3.6"/>
+<wire x1="195.58" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
+<label x="200.66" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_TEST_OUT" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="76.2" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
+<label x="195.58" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PERIFERAL" gate="1" pin="3"/>
@@ -6402,6 +6177,7 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="81.28" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
+<label x="215.9" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PERIFERAL" gate="1" pin="4"/>
@@ -6533,26 +6309,26 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="TX0"/>
-<wire x1="48.26" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="38.1" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="314.96" y1="81.28" x2="307.34" y2="81.28" width="0.1524" layer="91"/>
 <label x="302.26" y="81.28" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="2.1"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="TX2"/>
+<wire x1="48.26" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<label x="38.1" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RX" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="RX0"/>
-<wire x1="48.26" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<label x="38.1" y="55.88" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="314.96" y1="78.74" x2="307.34" y2="78.74" width="0.1524" layer="91"/>
 <label x="302.26" y="78.74" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="2.2"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RX2"/>
+<wire x1="48.26" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<label x="38.1" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6615,30 +6391,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <label x="-2.54" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="R_AILERON_A" class="0">
-<segment>
-<pinref part="SERVO-CON2" gate="1" pin="12"/>
-<wire x1="259.08" y1="35.56" x2="256.54" y2="35.56" width="0.1524" layer="91"/>
-<label x="256.54" y="35.56" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="5"/>
-<wire x1="88.9" y1="104.14" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
-<label x="88.9" y="109.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="L_AILERON_A" class="0">
-<segment>
-<pinref part="SERVO-CON2" gate="1" pin="4"/>
-<wire x1="259.08" y1="25.4" x2="256.54" y2="25.4" width="0.1524" layer="91"/>
-<label x="256.54" y="25.4" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="6"/>
-<wire x1="91.44" y1="104.14" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
-<label x="91.44" y="109.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="DROP" class="0">
 <segment>
 <pinref part="OUT" gate="G$1" pin="3.8"/>
@@ -6674,6 +6426,55 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <pinref part="G1" gate="G$1" pin="TX"/>
 <wire x1="-48.26" y1="35.56" x2="-40.64" y2="35.56" width="0.1524" layer="91"/>
 <label x="-40.64" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FLAP_MODE" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="11"/>
+<wire x1="104.14" y1="104.14" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
+<label x="104.14" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="REC" gate="G$1" pin="3.5"/>
+<wire x1="195.58" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
+<label x="203.2" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEFT_TAIL" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="3"/>
+<wire x1="83.82" y1="104.14" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
+<label x="83.82" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="195.58" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="200.66" y="33.02" size="1.778" layer="95"/>
+<pinref part="OUT" gate="G$1" pin="3.3"/>
+<junction x="195.58" y="33.02"/>
+</segment>
+</net>
+<net name="RUDDER" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="104.14" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
+<label x="81.28" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="OUT" gate="G$1" pin="3.5"/>
+<wire x1="195.58" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="200.66" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPARE" class="0">
+<segment>
+<pinref part="OUT" gate="G$1" pin="3.7"/>
+<wire x1="195.58" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
+<label x="200.66" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="13"/>
+<wire x1="109.22" y1="104.14" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<label x="109.22" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
