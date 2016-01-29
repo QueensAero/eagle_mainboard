@@ -5893,7 +5893,7 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <instance part="IC1" gate="A1" x="195.58" y="-17.78"/>
 <instance part="IC2" gate="A1" x="195.58" y="-35.56"/>
 <instance part="IC3" gate="A1" x="195.58" y="-53.34"/>
-<instance part="SUPPLY2" gate="G$1" x="177.8" y="-35.56" rot="R90"/>
+<instance part="SUPPLY2" gate="G$1" x="165.1" y="-35.56" rot="R90"/>
 <instance part="GND8" gate="1" x="195.58" y="-27.94"/>
 <instance part="GND10" gate="1" x="195.58" y="-45.72"/>
 <instance part="GND11" gate="1" x="195.58" y="-63.5"/>
@@ -6058,28 +6058,26 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 </net>
 <net name="LEFT_AILERON" class="0">
 <segment>
-<wire x1="195.58" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
-<label x="200.66" y="38.1" size="1.778" layer="95"/>
-<pinref part="OUT" gate="G$1" pin="3.1"/>
-<junction x="195.58" y="38.1"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="6"/>
 <wire x1="91.44" y1="104.14" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 <label x="91.44" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="OUT" gate="G$1" pin="3.3"/>
+<wire x1="195.58" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="200.66" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RIGHT_AILERON" class="0">
-<segment>
-<wire x1="195.58" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
-<label x="200.66" y="35.56" size="1.778" layer="95"/>
-<pinref part="OUT" gate="G$1" pin="3.2"/>
-<junction x="195.58" y="35.56"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="5"/>
 <wire x1="88.9" y1="104.14" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
 <label x="88.9" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="OUT" gate="G$1" pin="3.4"/>
+<wire x1="195.58" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="200.66" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ROLL_R" class="0">
@@ -6101,9 +6099,9 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <label x="86.36" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="OUT" gate="G$1" pin="3.4"/>
-<wire x1="195.58" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
-<label x="200.66" y="30.48" size="1.778" layer="95"/>
+<pinref part="OUT" gate="G$1" pin="3.5"/>
+<wire x1="195.58" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="200.66" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PITCH_R" class="0">
@@ -6273,8 +6271,8 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <wire x1="210.82" y1="-35.56" x2="210.82" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="-35.56" x2="210.82" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="210.82" y="-35.56"/>
-<wire x1="210.82" y1="-35.56" x2="215.9" y2="-35.56" width="0.1524" layer="91"/>
-<label x="218.44" y="-35.56" size="1.778" layer="95"/>
+<wire x1="210.82" y1="-35.56" x2="228.6" y2="-35.56" width="0.1524" layer="91"/>
+<label x="231.14" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -6292,7 +6290,7 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <junction x="182.88" y="-35.56"/>
 <pinref part="IC1" gate="A1" pin="VI"/>
 <wire x1="182.88" y1="-17.78" x2="185.42" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-35.56" x2="177.8" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="-35.56" x2="165.1" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="12V"/>
 <pinref part="IC2" gate="A1" pin="VI"/>
 <wire x1="182.88" y1="-35.56" x2="185.42" y2="-35.56" width="0.1524" layer="91"/>
@@ -6314,9 +6312,11 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <pinref part="U$2" gate="G$1" pin="2.1"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="TX2"/>
-<wire x1="48.26" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<label x="38.1" y="68.58" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="TX3"/>
+<wire x1="48.26" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<label x="38.1" y="73.66" size="1.778" layer="95"/>
+<label x="38.1" y="73.66" size="1.778" layer="95"/>
+<label x="38.1" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -6326,9 +6326,9 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <pinref part="U$2" gate="G$1" pin="2.2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RX2"/>
-<wire x1="48.26" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<label x="38.1" y="66.04" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="RX3"/>
+<wire x1="48.26" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
+<label x="38.1" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6393,15 +6393,14 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 </net>
 <net name="DROP" class="0">
 <segment>
-<pinref part="OUT" gate="G$1" pin="3.8"/>
-<wire x1="195.58" y1="20.32" x2="200.66" y2="20.32" width="0.1524" layer="91"/>
-<junction x="195.58" y="20.32"/>
-<label x="200.66" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="10"/>
 <wire x1="101.6" y1="104.14" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
 <label x="101.6" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="OUT" gate="G$1" pin="3.2"/>
+<wire x1="195.58" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
+<label x="200.66" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -6447,10 +6446,9 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <label x="83.82" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="195.58" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
-<label x="200.66" y="33.02" size="1.778" layer="95"/>
-<pinref part="OUT" gate="G$1" pin="3.3"/>
-<junction x="195.58" y="33.02"/>
+<pinref part="OUT" gate="G$1" pin="3.7"/>
+<wire x1="195.58" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
+<label x="200.66" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RUDDER" class="0">
@@ -6460,21 +6458,21 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <label x="81.28" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="OUT" gate="G$1" pin="3.5"/>
-<wire x1="195.58" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
-<label x="200.66" y="27.94" size="1.778" layer="95"/>
+<pinref part="OUT" gate="G$1" pin="3.8"/>
+<wire x1="195.58" y1="20.32" x2="200.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="200.66" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPARE" class="0">
 <segment>
-<pinref part="OUT" gate="G$1" pin="3.7"/>
-<wire x1="195.58" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
-<label x="200.66" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="13"/>
 <wire x1="109.22" y1="104.14" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <label x="109.22" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="OUT" gate="G$1" pin="3.1"/>
+<wire x1="195.58" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
+<label x="200.66" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
