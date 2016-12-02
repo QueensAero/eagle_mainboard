@@ -5853,12 +5853,12 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="0204/7" value="100k"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0204/7" value="30k"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5897,12 +5897,12 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <instance part="GND5" gate="1" x="208.28" y="38.1"/>
 <instance part="GND6" gate="1" x="208.28" y="86.36"/>
 <instance part="GND7" gate="1" x="246.38" y="71.12" rot="R90"/>
-<instance part="GND9" gate="1" x="246.38" y="119.38" rot="R90"/>
 <instance part="R1" gate="G$1" x="147.32" y="7.62" rot="R90"/>
 <instance part="R2" gate="G$1" x="147.32" y="-7.62" rot="R90"/>
 <instance part="SUPPLY5" gate="G$1" x="147.32" y="17.78"/>
 <instance part="GND14" gate="1" x="147.32" y="-22.86"/>
 <instance part="GND15" gate="1" x="119.38" y="30.48"/>
+<instance part="GND9" gate="1" x="246.38" y="119.38" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6041,6 +6041,11 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <wire x1="119.38" y1="38.1" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
 <junction x="119.38" y="38.1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="MUX1" gate="G$1" pin="G'"/>
+<wire x1="238.76" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="LEFT_AILERON" class="0">
@@ -6484,11 +6489,6 @@ Footprint for Adafruit Ultimate GPS breakout board</description>
 <pinref part="U$1" gate="G$1" pin="11"/>
 <label x="63.5" y="96.52" size="1.778" layer="95"/>
 <wire x1="63.5" y1="88.9" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="MUX1" gate="G$1" pin="G'"/>
-<wire x1="238.76" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="MUX1" gate="G$1" pin="4A"/>
